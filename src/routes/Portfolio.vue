@@ -3,7 +3,7 @@
             <div class="card" >
                     <div class="card-head"> my stuff </div>
                     <div class="row row-fill">
-                        <nav class="card-body d-inline" v-for="item in ['pixel art', 'misc art', 'games', 'web dev', 'misc code']"
+                        <nav class="card-body d-inline" v-for="item in ['pixel art', 'games', 'web dev', 'misc code', 'misc art']"
                             v-bind:key="item"
                         >
                              <a class="sm" v-on:click="portfolio_page = item"
@@ -20,6 +20,28 @@
                         
                         <div v-if="portfolio_page == 'pixel art'">
                             <div class="portfolio d-inline">
+                                <h3>tilesets</h3>
+                                <img src="../assets/img/portfolio/pixel/tileset0.png">
+                                <img src="../assets/img/portfolio/pixel/tileset1.png">
+                                <img src="../assets/img/portfolio/pixel/tileset2.png">
+                                <img src="../assets/img/portfolio/pixel/tileset3.png">
+                                <img src="../assets/img/portfolio/pixel/tileset4.png">
+                                <img src="../assets/img/portfolio/pixel/tileset5.png">
+                                <img src="../assets/img/portfolio/pixel/tileset6.png">
+
+                                <h3>animation</h3>
+                                <img src="../assets/img/portfolio/pixel/anim0.gif">
+                                <img src="../assets/img/portfolio/pixel/anim1.gif">
+                                <img src="../assets/img/portfolio/pixel/anim2.gif">
+                                <img src="../assets/img/portfolio/pixel/anim3.gif">
+                                <img src="../assets/img/portfolio/pixel/anim4.gif">
+                                <img src="../assets/img/portfolio/pixel/anim5.gif">
+                                <img src="../assets/img/portfolio/pixel/anim.gif">
+                                <img src="../assets/img/portfolio/pixel/anim6.gif">
+                                <img src="../assets/img/portfolio/pixel/anim7.gif">
+                                <img src="../assets/img/portfolio/pixel/anim8.gif">
+                                <img src="../assets/img/portfolio/pixel/anim8_sheet.png">
+
                                 <h3>areas</h3>
                                 <img src="../assets/img/portfolio/pixel/area1.png">
                                 <img src="../assets/img/portfolio/pixel/area2.png">
@@ -27,13 +49,7 @@
                                 <img src="../assets/img/portfolio/pixel/area4.png">
                                 <img src="../assets/img/portfolio/pixel/area5.png">
                                 <img src="../assets/img/portfolio/pixel/area6.png">
-                                <h3>animation</h3>
-                                <img src="../assets/img/portfolio/pixel/anim1.gif">
-                                <img src="../assets/img/portfolio/pixel/anim2.gif">
-                                <img src="../assets/img/portfolio/pixel/anim3.gif">
-                                <img src="../assets/img/portfolio/pixel/anim4.gif">
-                                <img src="../assets/img/portfolio/pixel/anim5.gif">
-                                <img src="../assets/img/portfolio/pixel/anim.gif">
+                                
                                 <h3>rpg enemies</h3>
                                 <img src="../assets/img/portfolio/pixel/enemy1.png">
                                 <img src="../assets/img/portfolio/pixel/enemy2.png">
@@ -44,13 +60,7 @@
                                 <img src="../assets/img/portfolio/pixel/enemy7.png">
                                 <img src="../assets/img/portfolio/pixel/enemy8.png">
                                 <img src="../assets/img/portfolio/pixel/enemy9.png">
-                                <h3>tilesets</h3>
-                                <img src="../assets/img/portfolio/pixel/tileset1.png">
-                                <img src="../assets/img/portfolio/pixel/tileset2.png">
-                                <img src="../assets/img/portfolio/pixel/tileset3.png">
-                                <img src="../assets/img/portfolio/pixel/tileset4.png">
-                                <img src="../assets/img/portfolio/pixel/tileset5.png">
-                                <img src="../assets/img/portfolio/pixel/tileset6.png">
+                                
                                 <h3>trees</h3>
                                 <img src="../assets/img/portfolio/pixel/tree1.png">
                                 <img src="../assets/img/portfolio/pixel/tree2.png">
@@ -95,6 +105,61 @@
                         <div v-if="portfolio_page == 'games'">
 
                             <div class="card-body d-inline">
+
+                                <div class="row-fill row-wrap">
+                                    <div class="col col-7">
+                                        <h3>POWERSAVER</h3>
+                                        <strong>Jan 2022</strong> <br>
+                                        <strong>roles</strong> code, art <br>
+                                        <strong>tech</strong> nodeJS, typescript <br>
+                                        <a href="https://globalgamejam.org/2022/games/powersaver-6">link</a>
+                                    </div>
+                                    <div class="col col-5">
+                                        <video src="../assets/img/portfolio/games/powersaver.mp4"
+                                            style="max-width: 100%;"
+                                            autoplay="true"
+                                            loop="true"
+                                        >
+                                        </video>
+                                    </div>
+                                    <div class="col col-12">
+                                        cave story-esque platformer demo made for global game jam 2022. meant to
+                                        serve as a proof of concept for a typescript 2d game engine/framework i've
+                                        been writing from scratch (scene saving/loading, collision, graphics abstraction)
+                                        on top of the <a href="https://github.com/RobLoach/node-raylib">node-raylib graphics framework</a> i contribute to.
+                                        the engine (i've been calling toskr) will likely become open source pretty soon.
+                                        it uses a scene tree system fairly similar to godot, and i think would be really
+                                        great for anyone into typescript who wants to make games, but publish lightweight native
+                                        ones instead of bundling everything into a electron app.
+                                    </div>
+                                </div>
+
+                                <div class="row-fill row-wrap">
+                                    <div class="col col-7">
+                                        <h3>node-raylib</h3>
+                                        <strong>2022</strong> <br>
+                                        <strong>roles</strong> open source contributions <br>
+                                        <strong>tech</strong> js/ts, c++ <br>
+                                        <a href="https://github.com/RobLoach/node-raylib">link</a>
+                                    </div>
+                                    <div class="col col-5">
+                                        <video src="../assets/img/portfolio/games/bunnymark.mp4"
+                                            style="max-width: 100%;"
+                                            autoplay="true"
+                                            loop="true"
+                                        >
+                                        </video>
+                                    </div>
+                                    <div class="col col-12">
+                                        node-raylib is a native c++ addon for nodejs that lets you create games or other multimedia
+                                        apps with javascript or typescript that run without a browser, natively on the desktop with opengl.
+                                        over 2022 i've been contributing code to the project and pretty much rewrote the library,
+                                        switching over to a code-generation system that optimizes bandwidth from the javascript
+                                        runtime to the graphics backend. my work resulted in the library being able to render 
+                                        sprite textures to the screen <a href="https://github.com/RobLoach/node-raylib/issues/100#issuecomment-1046400083">
+                                        about 10x faster.</a>
+                                    </div>
+                                </div>
                                 
                                 <div class="row-fill row-wrap">
                                     <div class="col col-7">

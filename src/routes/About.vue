@@ -4,21 +4,11 @@
       <div class="col-6">
           <div class="row row-fill">
               <div class="card">
-                  <img src="../assets/img/profile.png">
+                  <img src="../assets/img/icon.png">
                   <div class="card-head card-head-bordered">depicted: {{names[name]}}</div>
                   <div class="card-body">
                       troublemaker indiet. i turn bad ideas into audacious video games
                   </div>
-              </div>
-          </div>
-          <div class="row row-fill j-around">
-              <div class="card">
-                  <nav class="links-hover">
-                      <a href="https://twitter.com/bwuhhh">twinter</a>
-                      <a href="https://github.com/twuky">get hub</a>
-                      <a href="https://tuckie.itch.io/">itch.bo</a>
-                      <a href="mailto:hey@tuckie.zone">em@il</a>
-                  </nav>
               </div>
           </div>
       </div>
@@ -36,14 +26,8 @@
                   plenty of portland's pigsquad events~~
               </p>
               <p>
-                  i also launched and run a new gamedev / devlog forum called 
-                  <a href="https://aregames.art">aregames.art</a>!! find ongoing progress
-                  on anything public of mine there, along with a other cool projects 
-                  from members of the community. come hang out :)
+                
               </p>
-              <a href="https://aregames.art">
-                <img src="../assets/img/aregames.png">
-              </a>
               
           </card>
 
