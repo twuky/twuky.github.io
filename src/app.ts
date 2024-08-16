@@ -69,6 +69,6 @@ export default {
 	},
 
 	tab(page: string) {
-		return this.current_route == page ? `> ${page}` : page
+		return this.current_route.includes(page)  ? `> ${page}` : page
 	}
 }
