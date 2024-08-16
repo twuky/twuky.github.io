@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'monofur';
-	src: url('/assets/font/monofur.ttf') format('truetype');
+	src: url('/assets/font/monofur.woff2') format('woff2');
 	size-adjust: 110%;
 }
 
