@@ -117,6 +117,7 @@ nav a {
 #pfp {
 	object-fit: none;
 	object-position: center;
+	image-rendering: pixelated;
 	border: var(--border-width) solid var(--border);
 	width: 100%;
 	height: auto;
