@@ -1,8 +1,8 @@
-@font-face {
+/* @font-face {
 	font-family: 'monofur';
 	src: url('/assets/font/monofur.woff2') format('woff2');
 	size-adjust: 110%;
-}
+} */
 
 :root {
 	--bg: #c9d1c9;

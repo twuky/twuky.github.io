@@ -41,7 +41,7 @@ export default {
 			let x = -(e.x / window.innerWidth) * 16 - 24
 			let y = -(e.y / window.innerHeight) * 16 - 24
 			//@ts-ignore
-			document.getElementById("pfp").style.objectPosition = `${(x/3)*3}px ${(y/3)*3}px`
+			document.getElementById("pfp").style.objectPosition = `${Math.floor(x/3)*3}px ${Math.floor(y/3)*3}px`
 		}
 	},
 
